@@ -3,5 +3,5 @@
     return item+10
   })
   console.log(result);
-  console.log(12);
+  console.log("真不错");
 })()
