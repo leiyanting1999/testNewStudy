@@ -3,4 +3,4 @@
     return num1+num2;
   }
   console.log(foo(24,36));
-})
+})()
