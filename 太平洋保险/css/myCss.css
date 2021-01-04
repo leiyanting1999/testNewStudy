@@ -1,0 +1,94 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.tou {
+
+  background: #1565C0;
+}
+
+.s1 {
+  line-height: 84px;
+  color: white;
+  font-size: 16px;
+  display: block;
+  text-align: center;
+}
+
+.ss2 {
+  border-radius: 25px;
+  margin-top: 25px;
+}
+
+.bx {
+  margin-top: 20px;
+}
+
+.s1:hover {
+  background: #001199;
+}
+
+.thumbnail{
+  border: none;
+}
+
+.xl-1{
+  display: none;
+
+}
+
+
+.xl-2{
+  display: none;
+
+}
+
+.xl-3{
+  display: none;
+
+}
+.xl-4{
+  display: none;
+
+}
+
+.tj{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.l-a{
+  color: black;
+}
+
+.l-a:hover{
+  background-color: grey;
+}
+
+.sl-1{
+  display: block;
+}
+
+.sl-2{
+  display: none;
+}
+
+.sl-3{
+  display: none;
+}
+
+.sl-4{
+  display: none;
+}
+
+
+
+.sl-1 .caption{
+  float: left;
+}
+
+.ts-1{
+  float: left;
+}

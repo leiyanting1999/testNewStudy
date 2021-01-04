@@ -1,0 +1,9 @@
+{
+  "name": "Grunt学习",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.3.0",
+    "grunt-contrib-concat": "^1.0.1"
+  }
+}
