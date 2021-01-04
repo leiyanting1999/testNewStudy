@@ -3,16 +3,15 @@ module.exports = function(grunt) {
   //初始化配置grunt任务
   // Project configuration.
   grunt.initConfig({
-    pkg: grunt.file.readJSON('package.json'),
-    uglify: {
+    concat: {
       options: {
-        banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+        separator: ';',
       },
-      build: {
-        src: 'src/<%= pkg.name %>.js',
-        dest: 'build/<%= pkg.name %>.min.js'
-      }
-    }
+      dist: {
+        src: ['src/intro.js', 'src/project.js', 'src/outro.js'],
+        dest: 'dist/built.js',
+      },
+    },
   });
 
   //当grunt任务执行的时候去加载对应的任务插件
